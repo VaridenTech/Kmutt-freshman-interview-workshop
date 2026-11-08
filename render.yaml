@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: kmutt-freshman-interview-workshop
+    runtime: static
+    branch: main
+    # Publish only the page and its images (not the prompt notes or agent config).
+    buildCommand: >-
+      mkdir -p public && cp index.html public/ &&
+      find img -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \)
+      | tar -cf - -T - | tar -xf - -C public
+    staticPublishPath: public
+    headers:
+      - path: /img/*
+        name: Cache-Control
+        value: public, max-age=604800
