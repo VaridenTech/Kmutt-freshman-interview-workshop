@@ -3,11 +3,8 @@ services:
     name: kmutt-freshman-interview-workshop
     runtime: static
     branch: main
-    # Publish only the page and its images (not the prompt notes or agent config).
-    buildCommand: >-
-      mkdir -p public && cp index.html public/ &&
-      find img -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \)
-      | tar -cf - -T - | tar -xf - -C public
+    # No build step: public/ is served as-is.
+    buildCommand: ""
     staticPublishPath: public
     headers:
       - path: /img/*
