@@ -1,0 +1,8 @@
+# First impression cartoon
+
+Generated with the built-in image_gen tool. Asset: `first-impression-cartoon.png`.
+Use case: illustration-story. Embedded in index.html for offline use.
+
+## Final prompt
+
+Create a cute polished editorial cartoon infographic for a Thai university graduate job interview workshop. Landscape 3:2 canvas, warm ivory background, navy outlines, soft blue, peach and sage colors, rounded friendly adult chibi characters, clean professional educational style, generous whitespace. Four equal panels arranged 2x2, numbered 1,2,3,4 in small orange circles. Consistent young adult Thai graduate wearing navy blazer and cream blouse throughout. Panel 1 upper left: outside interview room checking neatly organized document folder, smartphone with muted bell symbol, tidy attire. Panel 2 upper right: gently knocking at open doorway, friendly interviewer inside welcoming her. Panel 3 lower left: graduate smiling and offering Thai wai greeting to interviewer beside chair, interviewer open hand inviting her to sit. Panel 4 lower right: seated comfortably across desk listening attentively to interviewer, friendly eye contact and calm conversation, simple speech bubble with small heart symbol to convey respectful warm atmosphere. Both adults clearly professional, natural hands, no exaggerated bowing, no infantilizing school outfits. Communicate first impressions begin at the door, kindness and preparedness create comfortable conversation. No success guarantee imagery, no judging or angry people. Absolutely no text or lettering except four panel numbers; Thai captions will be added as real HTML outside image. Crisp beautiful complete composition, no cropped characters.
